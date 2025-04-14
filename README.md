@@ -2,7 +2,7 @@
 
 This is a React application designed to showcase job experience or similar chronological data using an interactive tabbed interface. The application fetches data from an external API and allows users to click through different "tabs" (representing companies or roles) to view the associated details.
 
-**[Live Demo]()**
+**[Live Demo](https://showcasejobtab.netlify.app/)**
 
 ## Features
 
@@ -60,10 +60,8 @@ Follow these instructions to set up and run the project locally.
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/NoToRacism/ShowcaseJobData
     ```
-
-    _(Replace `<your-repository-url>` with your actual repository link)_
 
 2.  **Navigate to the project directory:**
 
@@ -136,10 +134,3 @@ Builds the app for production to the `build` folder. It optimizes the build for 
       - It renders a `div` containing an icon (`FaAngleDoubleRight` from `react-icons`) and the duty text (`<p>{duty}</p>`).
       - The generated `uuid` is used as the `key` prop for the list item `div`.
 
-## Contributing
-
-Contributions, issues, and feature requests are welcome. Please feel free to open an issue or submit a pull request.
-
-## License
-
-Distributed under the MIT License. See `LICENSE` file for more information (if you choose to add one).
