@@ -31,6 +31,7 @@ This is a React application designed to showcase job experience or similar chron
 ## Project Structure
 
 /src
+
 ├── App.jsx # Main component: fetches data, manages state (loading, jobs, current tab)
 
 ├── BtnContainer.jsx # Renders the company/job tab buttons and handles tab switching
